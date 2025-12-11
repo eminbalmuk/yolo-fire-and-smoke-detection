@@ -207,8 +207,8 @@ def build_argparser() -> argparse.ArgumentParser:
     detect_p = subparsers.add_parser("detect", help="Run video inference")
     detect_p.add_argument("--weights", default="runs/detect/dfire-yolo/weights/best.pt")
     detect_p.add_argument("--source", default="FP1.mp4")
-    detect_p.add_argument("--conf", type=float, default=0.35)
-    detect_p.add_argument("--iou", type=float, default=0.45)
+    detect_p.add_argument("--conf", type=float, default=0.46)
+    detect_p.add_argument("--iou", type=float, default=0.3)
     detect_p.add_argument("--imgsz", type=int, default=640)
     detect_p.add_argument("--device", default=None)
     detect_p.add_argument("--classes", nargs="*", default=["fire", "smoke"], help="Class names to keep")
@@ -239,8 +239,12 @@ def main() -> None:
     elif args.command == "detect":
         weights = Path(args.weights)
         source = Path(args.source)
-        output_path = Path(args.output)
-        log_json = Path(args.log_json) if args.log_json else None
+        output_path = Path("predicted_videos") / f"{source.stem}_prediction.mp4"
+        log_json = Path("predicted_videos_labels") / f"{source.stem}_predictionlabel.json" if args.log_json else None
+
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        if log_json:
+            log_json.parent.mkdir(parents=True, exist_ok=True)
 
         detections = run_video_inference(
             weights=weights,

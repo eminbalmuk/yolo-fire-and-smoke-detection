@@ -1,0 +1,8 @@
+ultralytics
+opencv-python>=4.6.0
+numpy>=1.24
+PyYAML>=6.0
+torch>=2.1.0
+torchvision>=0.15.2
+# Pytorch-CUDA indirmek için:
+# https://pytorch.org/get-started/locally/

@@ -1,3 +1,8 @@
-Örnek Çalıştırma Komutu:
+Model Eğitimi Komutu:
 
-python main.py detect --weights runs/detect/dfire-yolo/weights/best.pt --source test_videolari/TP3.mp4 --conf 0.46 --iou 0.3 --imgsz 640 --device cuda:0 --output runs/pred/TP3_annotated.mp4 --log-json runs/pred/TP3_detections.json
+python main.py train --model yolo11n.pt --epochs 30 --batch 16 --imgsz 640 --device cuda:0
+
+Örnek Çalıştırma Komutu:
+(Test edeceğiniz videoyu test_videolari klasörüne atıp, çalıştırma komutunda --source belirtirken aşağıdaki gibi dosya yolu ve dosya adını yazınız.)
+
+python main.py detect --source test_videolari/TP3.mp4
