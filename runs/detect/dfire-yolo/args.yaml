@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: yolov8n.pt
+model: yolo11n.pt
 data: C:\Users\muham\Desktop\ysa\dataset.yaml
-epochs: 30
+epochs: 64
 time: null
 patience: 100
 batch: 16
