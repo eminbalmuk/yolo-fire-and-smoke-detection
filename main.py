@@ -207,7 +207,7 @@ def build_argparser() -> argparse.ArgumentParser:
     detect_p = subparsers.add_parser("detect", help="Run video inference")
     detect_p.add_argument("--weights", default="runs/detect/dfire-yolo/weights/best.pt")
     detect_p.add_argument("--source", default="FP1.mp4")
-    detect_p.add_argument("--conf", type=float, default=0.46)
+    detect_p.add_argument("--conf", type=float, default=0.32)
     detect_p.add_argument("--iou", type=float, default=0.3)
     detect_p.add_argument("--imgsz", type=int, default=640)
     detect_p.add_argument("--device", default=None)

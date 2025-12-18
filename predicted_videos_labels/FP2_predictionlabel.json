@@ -1,0 +1,379 @@
+[
+  {
+    "frame": 9,
+    "time_seconds": 0.3,
+    "timecode": "00:00:00.300",
+    "class": "fire",
+    "confidence": 0.612,
+    "bbox_xyxy": [
+      160,
+      155,
+      245,
+      176
+    ]
+  },
+  {
+    "frame": 11,
+    "time_seconds": 0.367,
+    "timecode": "00:00:00.366",
+    "class": "fire",
+    "confidence": 0.6,
+    "bbox_xyxy": [
+      158,
+      155,
+      246,
+      177
+    ]
+  },
+  {
+    "frame": 36,
+    "time_seconds": 1.2,
+    "timecode": "00:00:01.200",
+    "class": "fire",
+    "confidence": 0.553,
+    "bbox_xyxy": [
+      156,
+      155,
+      238,
+      178
+    ]
+  },
+  {
+    "frame": 50,
+    "time_seconds": 1.667,
+    "timecode": "00:00:01.666",
+    "class": "fire",
+    "confidence": 0.478,
+    "bbox_xyxy": [
+      16,
+      184,
+      91,
+      214
+    ]
+  },
+  {
+    "frame": 84,
+    "time_seconds": 2.8,
+    "timecode": "00:00:02.800",
+    "class": "fire",
+    "confidence": 0.481,
+    "bbox_xyxy": [
+      157,
+      162,
+      235,
+      182
+    ]
+  },
+  {
+    "frame": 127,
+    "time_seconds": 4.233,
+    "timecode": "00:00:04.233",
+    "class": "fire",
+    "confidence": 0.567,
+    "bbox_xyxy": [
+      31,
+      199,
+      107,
+      229
+    ]
+  },
+  {
+    "frame": 152,
+    "time_seconds": 5.067,
+    "timecode": "00:00:05.066",
+    "class": "fire",
+    "confidence": 0.573,
+    "bbox_xyxy": [
+      76,
+      357,
+      120,
+      378
+    ]
+  },
+  {
+    "frame": 152,
+    "time_seconds": 5.067,
+    "timecode": "00:00:05.066",
+    "class": "fire",
+    "confidence": 0.479,
+    "bbox_xyxy": [
+      55,
+      205,
+      121,
+      229
+    ]
+  },
+  {
+    "frame": 164,
+    "time_seconds": 5.467,
+    "timecode": "00:00:05.466",
+    "class": "smoke",
+    "confidence": 0.508,
+    "bbox_xyxy": [
+      6,
+      436,
+      347,
+      640
+    ]
+  },
+  {
+    "frame": 210,
+    "time_seconds": 7.0,
+    "timecode": "00:00:07.000",
+    "class": "fire",
+    "confidence": 0.526,
+    "bbox_xyxy": [
+      84,
+      205,
+      160,
+      234
+    ]
+  },
+  {
+    "frame": 261,
+    "time_seconds": 8.7,
+    "timecode": "00:00:08.700",
+    "class": "fire",
+    "confidence": 0.472,
+    "bbox_xyxy": [
+      2,
+      302,
+      80,
+      343
+    ]
+  },
+  {
+    "frame": 337,
+    "time_seconds": 11.233,
+    "timecode": "00:00:11.233",
+    "class": "fire",
+    "confidence": 0.572,
+    "bbox_xyxy": [
+      12,
+      293,
+      123,
+      335
+    ]
+  },
+  {
+    "frame": 460,
+    "time_seconds": 15.333,
+    "timecode": "00:00:15.333",
+    "class": "fire",
+    "confidence": 0.482,
+    "bbox_xyxy": [
+      148,
+      164,
+      219,
+      187
+    ]
+  },
+  {
+    "frame": 460,
+    "time_seconds": 15.333,
+    "timecode": "00:00:15.333",
+    "class": "fire",
+    "confidence": 0.474,
+    "bbox_xyxy": [
+      19,
+      191,
+      91,
+      219
+    ]
+  },
+  {
+    "frame": 461,
+    "time_seconds": 15.367,
+    "timecode": "00:00:15.366",
+    "class": "fire",
+    "confidence": 0.487,
+    "bbox_xyxy": [
+      20,
+      191,
+      93,
+      218
+    ]
+  },
+  {
+    "frame": 485,
+    "time_seconds": 16.167,
+    "timecode": "00:00:16.166",
+    "class": "fire",
+    "confidence": 0.501,
+    "bbox_xyxy": [
+      137,
+      154,
+      214,
+      181
+    ]
+  },
+  {
+    "frame": 508,
+    "time_seconds": 16.933,
+    "timecode": "00:00:16.933",
+    "class": "fire",
+    "confidence": 0.606,
+    "bbox_xyxy": [
+      7,
+      184,
+      91,
+      213
+    ]
+  },
+  {
+    "frame": 508,
+    "time_seconds": 16.933,
+    "timecode": "00:00:16.933",
+    "class": "fire",
+    "confidence": 0.545,
+    "bbox_xyxy": [
+      58,
+      342,
+      103,
+      363
+    ]
+  },
+  {
+    "frame": 527,
+    "time_seconds": 17.567,
+    "timecode": "00:00:17.566",
+    "class": "fire",
+    "confidence": 0.465,
+    "bbox_xyxy": [
+      161,
+      157,
+      248,
+      183
+    ]
+  },
+  {
+    "frame": 612,
+    "time_seconds": 20.4,
+    "timecode": "00:00:20.400",
+    "class": "fire",
+    "confidence": 0.512,
+    "bbox_xyxy": [
+      134,
+      161,
+      224,
+      180
+    ]
+  },
+  {
+    "frame": 680,
+    "time_seconds": 22.667,
+    "timecode": "00:00:22.666",
+    "class": "fire",
+    "confidence": 0.508,
+    "bbox_xyxy": [
+      80,
+      388,
+      108,
+      411
+    ]
+  },
+  {
+    "frame": 735,
+    "time_seconds": 24.5,
+    "timecode": "00:00:24.500",
+    "class": "fire",
+    "confidence": 0.482,
+    "bbox_xyxy": [
+      182,
+      447,
+      217,
+      480
+    ]
+  },
+  {
+    "frame": 745,
+    "time_seconds": 24.833,
+    "timecode": "00:00:24.833",
+    "class": "fire",
+    "confidence": 0.603,
+    "bbox_xyxy": [
+      217,
+      458,
+      251,
+      497
+    ]
+  },
+  {
+    "frame": 754,
+    "time_seconds": 25.133,
+    "timecode": "00:00:25.133",
+    "class": "fire",
+    "confidence": 0.501,
+    "bbox_xyxy": [
+      188,
+      473,
+      285,
+      516
+    ]
+  },
+  {
+    "frame": 756,
+    "time_seconds": 25.2,
+    "timecode": "00:00:25.200",
+    "class": "fire",
+    "confidence": 0.574,
+    "bbox_xyxy": [
+      263,
+      470,
+      295,
+      512
+    ]
+  },
+  {
+    "frame": 757,
+    "time_seconds": 25.233,
+    "timecode": "00:00:25.233",
+    "class": "fire",
+    "confidence": 0.493,
+    "bbox_xyxy": [
+      269,
+      470,
+      302,
+      513
+    ]
+  },
+  {
+    "frame": 860,
+    "time_seconds": 28.667,
+    "timecode": "00:00:28.666",
+    "class": "fire",
+    "confidence": 0.502,
+    "bbox_xyxy": [
+      14,
+      417,
+      36,
+      458
+    ]
+  },
+  {
+    "frame": 861,
+    "time_seconds": 28.7,
+    "timecode": "00:00:28.700",
+    "class": "fire",
+    "confidence": 0.517,
+    "bbox_xyxy": [
+      15,
+      418,
+      38,
+      460
+    ]
+  },
+  {
+    "frame": 887,
+    "time_seconds": 29.567,
+    "timecode": "00:00:29.566",
+    "class": "fire",
+    "confidence": 0.512,
+    "bbox_xyxy": [
+      55,
+      18,
+      146,
+      42
+    ]
+  }
+]
