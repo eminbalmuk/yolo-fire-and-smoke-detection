@@ -190,11 +190,11 @@ def run_video_inference(
 
 
 def build_argparser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Train/test YOLOv12 on DFireDataset")
+    parser = argparse.ArgumentParser(description="Train/test YOLOv11 on DFireDataset")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     train_p = subparsers.add_parser("train", help="Train YOLO")
-    train_p.add_argument("--model", default="yolov12n.pt", help="Base model or checkpoint")
+    train_p.add_argument("--model", default="yolo11n.pt", help="Base model or checkpoint")
     train_p.add_argument("--data", default=str(DATA_YAML), help="Dataset yaml path")
     train_p.add_argument("--epochs", type=int, default=50)
     train_p.add_argument("--imgsz", type=int, default=640)

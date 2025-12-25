@@ -1,7 +1,9 @@
-path: .
-train: images/train/images
-val: images/test/images
-test: images/test/images
+
+# path field is optional when using absolute paths in txt files
+train: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\train_val_full_abs.txt
+val: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\test_abs.txt
+test: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\test_abs.txt
+
 names:
   0: fire
   1: smoke

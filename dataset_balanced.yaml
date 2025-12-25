@@ -1,0 +1,10 @@
+
+# Auto-generated balanced dataset config
+path: .
+train: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\train_balanced_18k_abs.txt
+val: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\test_balanced_4k_abs.txt
+test: c:\Users\muham\Desktop\ysa\FASDD_CV\FASDD_CV\annotations\YOLO_CV\test_balanced_4k_abs.txt
+
+names:
+  0: fire
+  1: smoke
